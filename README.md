@@ -1,5 +1,5 @@
 saint-jack
 ==========
 
-A simple side jacking automation shell script originaly meant  to work with BT5 but Should work with Kali Linux too
-Note the name is not a typo
+A simple sidejacking automation shell script originaly meant  to work with BT5 but Should work with Kali Linux too
+
