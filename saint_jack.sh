@@ -15,8 +15,6 @@ function banner ()
 clear
 echo -e "\t#############################################################"
 echo -e "\t######**++++SaintJack.sh ver. 1.0 for BT5++++++++++**########"
-echo -e "\t#an ordianry side jacking automation shell script by ch!m3ra#"
-echo -e "\t########+++++http://chimera40.wordpress.com+++###############"
 echo -e "\t#___________________________________________________________#"
 }
 #usage function
@@ -79,7 +77,6 @@ echo -e "\t#----- ++Simply use the following setting in firefox++------#"
 echo -e "\t\thttp:proxy=127.0.0.1"
 echo -e "\t\tproxy port=1234"
 echo -e "\t *NB.learn to make use of the refresh button it does help ;)*"
-echo -e "\t##+++++++++++++http://chimera40.wordpress.com+++++++++++++++#"
 echo -e "\t#############################################################"
 echo "NB:When you are done just copy 'n' paste this line in your terminal!" 
 echo -e "\t\"killall -9 arpspoof sslstrip hamster ferret \""
